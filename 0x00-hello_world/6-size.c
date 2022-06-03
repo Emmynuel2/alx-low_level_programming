@@ -3,7 +3,7 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- * */
+ */
 int main(void)
 {
 	char typeChar;
@@ -11,9 +11,7 @@ int main(void)
 	long typeLongInt;
 	long long typeLongLongInt;
 	float typeFloat;
-	/*
-	 With sizeof() we get the number of bytes 
-	 */
+	/* With sizeof() we get the number of bytes */
 	printf("Size of a char: %lu byte(s)\n", sizeof(typeChar));
 	printf("Size of an int: %lu byte(s)\n", sizeof(typeInt));
 	printf("Size of a long int: %lu byte(s)\n", sizeof(typeLongInt));
